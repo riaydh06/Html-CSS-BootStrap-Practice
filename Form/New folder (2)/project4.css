@@ -1,0 +1,21 @@
+h1{font-family:serif;}
+body{background:url(image/body.png)}
+.navbar-default{background:}
+.nav li {float:left;border-left:black}
+.nav li a{text-transform:uppercase} 
+.navbar-brand{color:black}
+.manu{float:right;padding:10px}
+.main{padding-top:80px;margin-top:40px}
+.page{background-color:white;padding:20px;
+ margin-bottom:40px}
+.floatleft{float:left;}
+.floatright{float:right;}
+.para{border:1px solid #DFDFDF;padding:20px}
+.form1{border:1px solid #DFDFDF;padding:20px}
+.name{}
+.other{width:50%}
+.form-control{width:}
+.footer{background:url(image/footer.png);}
+.pillslink{}
+.pillslink li{}
+.pillslink li a{}

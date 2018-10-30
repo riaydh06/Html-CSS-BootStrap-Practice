@@ -1,0 +1,56 @@
+body{background:url(image/body.png)}
+.main{
+       margin:0 auto;
+	   background:url(image/cr.jpg);
+	   height:1752px;
+	   width:1238px;}
+.name{
+	font-size: 24px;
+    padding-left: 214px;
+    padding-top: 518px;
+	   }
+.birth{
+       font-size: 24px;
+    padding-left: 443px;
+    padding-top: 4px;
+    float:left;
+	   }
+.CDC{
+       font-size:24px;
+       padding-left:0px;	  	   
+       padding-right:220px;	  	   
+       padding-top:4px;
+	   float:right;
+	   }
+.signature1{
+    float:left;
+    font-size: 24px;
+    padding-left: 483px;
+    padding-right: 0;
+    padding-top: 630px;
+	   }
+.signature2{
+    float:left;
+    font-size: 24px;
+    padding-left: 928px;
+    padding-right: 0px;
+    padding-top: 25px;
+	   }
+.issue-date{
+     font-size: 24px;
+    padding-left: 990px;
+    padding-right: 0;
+    padding-top: 798px;
+	   }
+.Cert-No{
+    font-size: 24px;
+    padding-left: 421px;
+    padding-right: 0;
+    padding-top: 0;
+}	   
+.Dos-Reg-No{
+   font-size: 24px;
+    padding-left: 421px;
+    padding-right: 0;
+    padding-top: 15px;
+}

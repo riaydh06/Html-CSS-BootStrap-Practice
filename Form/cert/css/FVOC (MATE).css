@@ -1,0 +1,73 @@
+.name  {
+    font-family: serif;
+	font-style: italic;
+	font-size: 35px;
+    left: 326px;
+	position: absolute;
+	top: 461px;
+	width: 100%;
+}
+.birthday{
+    font-style: italic;
+	left: 410px;
+	position: absolute;
+	top: 504px;
+	width: 100%;
+	}
+.cdc{
+    font-style: italic;
+	left: 841px;
+	position: absolute;
+	top: 503px;
+	width: 100%;
+	}
+.from{
+    font-style: italic;
+	left: 675px;
+	position: absolute;
+	top: 570px;
+	width: 100%;
+	}
+.to{
+    font-style: italic;
+    left: 814px;
+	position: absolute;
+	top: 570px;
+	width: 100%;
+	}
+.certno{
+    font-family: times new roman;
+	left: 368px;
+	position: absolute;
+    top: 1430px;
+	width: 100%;
+	}
+.issuedate{
+    font-style: italic;
+	left: 999px;
+	position: absolute;
+    top: 1401px;
+	width: 100%;
+	}
+.dosregno{
+	left: 384px;
+	position: absolute;
+    top: 1478px;
+	width: 100%;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

@@ -1,0 +1,112 @@
+.serialno  {
+    left: 269px;
+    position: absolute;
+    top: 274px;
+    width: 100%;
+}
+.date{
+    font-style: italic;
+    left: 1005px;
+    position: absolute;
+    top: 275px;
+    width: 100%;
+	}
+.name  {
+    font-family: serif;
+    font-size: 35px;
+    font-style: italic;
+    left: 337px;
+    position: absolute;
+    top: 304px;
+    width: 100%;
+}
+.fathername  {
+    font-family: serif;
+    font-size: 35px;
+    font-style: italic;
+    left: 759px;
+    position: absolute;
+    top: 304px;
+    width: 100%;
+}
+
+.cdc{
+    font-style: italic;
+	left: 841px;
+	position: absolute;
+	top: 503px;
+	width: 100%;
+	}
+.birthday{
+    font-style: italic;
+    left: 237px;
+    position: absolute;
+    top: 369px;
+    width: 100%;
+	}
+.course{
+    font-style: italic;
+    left: 392px;
+    position: absolute;
+    top: 413px;
+    width: 100%;
+	}
+.from{
+    font-style: italic;
+    left: 1012px;
+    position: absolute;
+    top: 413px;
+    width: 100%;
+	}
+.to{
+    font-style: italic;
+    left: 165px;
+    position: absolute;
+    top: 461px;
+    width: 100%;
+	}
+.totalhourtheory{
+	font-family: times new roman;
+    font-style: italic;
+	left: 324px;
+	position: absolute;
+	top: 599px;
+	width: 100%;
+	}
+.attendenttheory{
+	font-style: italic;
+	left: 371px;
+	position: absolute;
+	top: 633px;
+	width: 100%;
+	}
+.markobtaintheory{
+    font-style: italic;
+	left: 384px;
+	position: absolute;
+	top: 665px;
+	width: 100%;
+	}
+.totalhourpractical{
+    font-family: times new roman;
+    font-style: italic;
+    left: 976px;
+	position: absolute;
+	top: 599px;
+	width: 100%;
+	}
+.attendentpractical{
+    font-style: italic;
+    left: 1037px;
+	position: absolute;
+	top: 633px;
+	width: 100%;
+	}
+.markobtainpractical{
+        font-style: italic;
+    left: 1035px;
+	position: absolute;
+	top: 665px;
+	width: 100%;
+	}	
+

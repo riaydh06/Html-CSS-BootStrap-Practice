@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="css/timeline.css" rel="stylesheet" type="text/css">
+    <link href="1.css" rel="stylesheet" type="text/css">
+	 <link rel="stylesheet" href="wp-content/themes/qas/style.css" type="text/css">
+  </head>
+  <body>
+       <section id="feature">
+    <div id="feature-wrap">
+        
+        <div class="fader-nav-wrap">
+            <div class="fader-nav">
+                <a href="#prev" id="prev">Previous</a>
+                <a href="#next" id="next">Next</a>
+                <p id="fader-title"></p>
+                <div class="fader-list">
+                    <ul></ul>
+                </div>
+            </div>
+            <span id="feature-ribbon"></span>
+        </div>
+        <div id="fader">
+            <ul class="fader-content">
+                 
+                <li id="hero-queen-annes-girls-celebrate-a-level-successes" title="Queen Anne’s Girls Celebrate A Level Successes">
+                	<a href="latest-news/queen-annes-girls-celebrate-a-level-successes/index.html" title="Read more on Queen Anne’s Girls Celebrate A Level Successes" class="fader-link">Queen Anne’s Girls Celebrate A Level Successes</a>
+                    <div>
+                                                    <img width="960" height="480" src="image/A-Level-Students-Jumping-For-Joy-960x480.jpg" class="attachment-homepage-feature wp-post-image" alt="A Level Students Jumping For Joy" />                                            </div>
+                </li>
+                 
+                <li id="hero-speech-day-and-prize-giving-2015" title="Speech Day and Prize Giving 2015">
+                	<a href="latest-news/speech-day-and-prize-giving-2015/index.html" title="Read more on Speech Day and Prize Giving 2015" class="fader-link">Speech Day and Prize Giving 2015</a>
+                    <div>
+                                                    <img width="960" height="455" src="image/QASSpeechDayJune2015180-960x455.jpg" class="attachment-homepage-feature wp-post-image" alt="QASSpeechDayJune2015180" />                                            </div>
+                </li>
+                 
+                <li id="hero-get-to-know-queen-annes-better" title="Get to know Queen Anne&#8217;s better">
+                	<a href="feature/get-to-know-queen-annes-better/index.html" title="Read more on Get to know Queen Anne&#8217;s better" class="fader-link">Get to know Queen Anne&#8217;s better</a>
+                    <div>
+                                                    <img width="960" height="480" src="image/qas_sept_2013_web-15-960x480.jpg" class="attachment-homepage-feature wp-post-image" alt="Happy Queen Anne&#039;s Girls" />                                            </div>
+                </li>
+                 
+                <li id="hero-braincando-two-day-conference" title="BrainCanDo Two-Day Conference at Queen Anne&#8217;s">
+                	<a href="latest-news/braincando-two-day-conference/index.html" title="Read more on BrainCanDo Two-Day Conference at Queen Anne&#8217;s" class="fader-link">BrainCanDo Two-Day Conference at Queen Anne&#8217;s</a>
+                    <div>
+                                                    <img width="960" height="480" src="image/IMG_8357-960x480.jpg" class="attachment-homepage-feature wp-post-image" alt="BrainCanDo Conference" />                                            </div>
+                </li>
+                 
+                <li id="hero-new-sixth-form-centre-lovelearning-campaign-announced" title="NEW Planning Permission Approved For Sixth Form Centre">
+                	<a href="latest-news/new-sixth-form-centre-lovelearning-campaign-announced/index.html" title="Read more on NEW Planning Permission Approved For Sixth Form Centre" class="fader-link">NEW Planning Permission Approved For Sixth Form Centre</a>
+                    <div>
+                                                    <img width="960" height="480" src="image/NEW-Sixth-Form-Centre-at-Queen-Annes-School1-960x480.jpg" class="attachment-homepage-feature wp-post-image" alt="NEW Sixth Form Centre at Queen Anne&#039;s School" />                                            </div>
+                </li>
+                            </ul>
+         </div>
+    </div>
+</section>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/fader.js"></script>
+        <script type="text/javascript">
+            $('fader').fader({
+                autoUpdateTitle: true,
+                autoGenerateButtons: true,
+                cycle: false,
+                faderWrap: '#fader',
+                buttonsWrap: '.fader-list',
+                buttonSelectedClass: 'active',
+                previousId: '#prev',
+                nextId: '#next',
+				swapTime :500 
+            });
+        </script>  
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

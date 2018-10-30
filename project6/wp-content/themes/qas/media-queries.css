@@ -1,0 +1,444 @@
+/*
+ * Media queries for iPhone design  ------------------------------------
+ */
+
+@media handheld and (max-width: 480px), screen and (max-device-width: 480px), screen and (max-width: 600px)  {
+	
+/* Generic Resets */
+
+body{
+	min-width:100%;
+	width:100%;	
+}
+header, footer, header nav ul, header nav ul li, header address a, header nav ul, #copyright, #copyright p, #content section#latest-news article, #content section#latest-news p.excerpt, #content section#older-news p, .single #content section small span, .contact form, .contact .wufoo li, .contact #content div, .contact #content div a#download, .contact #content div a#download:visited{
+	width:100%;	
+}
+#welcome, .contact, #content section, #content, #homepage #content, .secure, .register, #footer-nav, footer nav ul, footer nav div, #copyright, #prospectus div, #copyright ul, #aside-wrap, #content section#latest-news, #content section#older-news, .single #content section small, #comments form, .contact #content section, .error404 #content section{
+	width:96%;	
+	margin:0 2%;
+}
+#feature,#hero, #breadcrumb, #footnotes, #footer-nav, #prospectus h4, #prospectus p, header p.fax, #home-tabs .tab-content li div,.panel-wrap, #post-list aside, .blog #content section#older-news h2, #content section#older-news p a, #content section#older-news small a.comments, .error404 aside{
+	display:none;
+	visibility:hidden;	
+}	
+
+/* Header */
+
+h1{
+	top:8px;
+}
+header{
+	height:610px;
+	border-bottom:#eeeeea 5px solid;
+	background: #fff url('images/BG-mobile-header.jpg') repeat-x top center;
+}
+header nav{
+	height:auto;
+	float:none;
+	position:absolute;
+	top:325px;
+	width:90%;
+	margin: 0 5%;
+	clear:both;	
+}
+header nav div{
+	position:absolute;
+	top:-135px;
+	float:none;
+	display:block;
+	width:96%;
+	margin:0 3%;
+	padding:0;
+	border-left:none;
+}
+header nav div a{
+	display:block;
+	width:20%;
+	line-height:28px !important;
+	height:28px;
+	font-size:12px;
+	padding:0;
+	margin:0 2% 0 0;
+}
+header nav div span{
+	line-height:28px !important;
+	height:28px;
+}
+header input#s, header input#s:focus, header input.focus{
+	width:44%;
+	height:22px !important;
+	padding:3px 4% 3px 2%;
+	font-size:13px;
+	text-indent:10px;
+	width:135px !important;
+	background-position: 99% -19px;	
+}
+header input#s:focus, header input.focus{
+	background:none;	
+}
+header address{
+	position:absolute;
+	top:235px;
+	text-align:center;
+	width:80%;
+	margin: 0 10%;
+}
+header .contacts{
+	top:275px;
+	position:absolute;	
+	text-align:center;
+	width:90%;
+	margin: 0 5%;
+}
+header p{
+	text-align:center;
+	display:inline;
+	padding:0 2px;
+}
+header nav ul{
+	display:block;
+	margin:0 auto;
+	border-top:#ccccc6 1px solid;
+}
+header nav ul li{
+	clear:both;
+	padding:1px 0 0 0;
+	border-bottom:#ccccc6 1px solid;	
+}
+header nav ul li a, header nav ul li a:visited{
+	display:block;
+	width:97%;
+	line-height:31px;
+	padding-left:3%;	
+	background: url('images/BG-aside-link.png') no-repeat 97% 9px;
+}
+header nav ul li a:focus{
+	background: url('images/BG-aside-link.png') no-repeat 98% -30px;
+}
+#announce{
+	visibility:hidden;	
+}
+
+/* Content */
+
+.entry-content img, .entry-content a img{
+	max-width:94%;	
+	height:auto;
+}
+.entry-content img.alignleft, .entry-content a img.alignleft{
+	max-width:50%;
+	height:auto;	
+}
+
+.entry-content img.alignright, .entry-content a img.alignright{
+	max-width:50%;
+	height:auto;	
+}
+.entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6{
+	text-align:left;	
+}
+
+/* Homepage */
+	
+#welcome{
+	float:none;
+	display:block;
+}	
+section#home-tabs{
+	float:none;
+	display:block;
+	width:96% !important;
+	padding:0;	
+}
+#home-tabs ul.tabs li a, #home-tabs ul.tabs li a:visited {
+	text-decoration: none;
+	display: block;
+	width:100%;
+	font-size:11px;
+}
+#home-tabs .tab-content {
+	padding: 10px;
+}
+#home-tabs .tab-content li{
+	list-style:none;
+	display:block;	
+	clear:both;
+	min-height:60px;
+	padding:0 0 25px 0;
+}
+#home-tabs .tab-content li h3, #home-tabs .tab-content li p{
+	float:none;
+	width:80%;	
+}
+#home-tabs .tab-content li h3 a{
+	font-size:0.6em;
+}
+#home-tabs .tab-content > a{
+	width:60%;
+	margin-bottom:2em;
+}
+#home-tabs .tab-content > a:before, #home-tabs .tab-content > a:after{
+	width:14%;
+}
+#home-tabs .tab-content > a:before{
+	left:-20%;
+}
+#home-tabs .tab-content > a:after{
+	right:-20%;
+}
+
+/* Page/Post */
+
+article.entry-content{
+	margin-bottom:30px;	
+}
+
+/* Aside */
+
+#aside-wrap{
+	float:none;
+	display:block;	
+}
+aside, aside#sidebar{
+	float:none;
+	clear:both;
+	display:block;	
+	width:97%;
+}
+aside ul{
+	width:90%;	
+}
+aside#sidebar ul{
+	display:none !important;
+}
+aside#sidebar form{
+	width:97% !important;
+}
+aside#sidebar form input.search{
+	width:58% !important;
+}
+aside#sidebar form input.search-btn{
+	width:25% !important;
+}
+.share{
+	float:left;
+	clear:both;
+	width:97%;
+} 
+.sharer-wrap{
+	float:none;
+	display:block;
+	margin:0 auto;	
+	width:185px;
+}
+
+/* News */
+
+#content section#latest-news article{
+	float:none;
+	clear:both;	
+	padding:5px 0 35px 0;
+	border-bottom:#e9e7e3 1px solid;
+}
+#content section#latest-news article:last-child{
+	padding:5px 0 10px 0;
+	background:none;
+}
+#content section#latest-news article h3 a{
+	font-size:22px;	
+}
+#content section#latest-news h3{
+	padding:25px 0 10px 0;	
+}
+#content section#latest-news h4, #content section#older-news small{
+	padding:10px 0 12px 0;	
+}
+#content section#latest-news h4 strong a, #content section#older-news small a{
+	padding:5px 8px;
+	margin-left:3px;
+	background:#fff;
+	border:#d3d3cf 1px solid;	
+	border-radius:4px;
+}
+#content section#latest-news p.excerpt{
+	font-size:14px;
+	line-height:22px;	
+}
+.single #content section h2{
+	font-size:28px;
+	line-height:30px;
+	padding:0;	
+	text-align:center;
+}
+.single #content section small{
+	line-height:22px;
+	padding:25px 0 0 0;
+	text-align:center;
+	border-top:none;	
+	font-size:11px;
+}
+.single #content section small span{
+	top:0;	
+}
+.single #content section small a{
+	padding:5px 8px;
+	background:#fff;
+	border:#d3d3cf 1px solid;	
+	border-radius:4px;
+}
+.single #content section small a.comments{
+	display:block;
+	width:60%;
+	font-size:15px;
+	color:#fff;
+	background:#95918c;
+	border:none;
+	margin:20px auto 0 auto;
+	text-align:center;
+	clear:both;	
+}
+.single #post-nav{
+	position:relative;
+	width:90px;
+	margin:10px 0 0 -45px;
+	left:50%;
+	clear:both;	
+	display:block;
+	float:none;
+	background:none;
+}
+#comments h3#reply-title{
+	padding:20px 0 15px 2%;	
+}
+#comments form input, #comments form textarea{
+	width:95%;
+}
+
+/* Contact */
+
+.contact .wufoo input.medium, .contact .wufoo textarea{
+	width:87%;	
+}
+.contact .wufoo .buttons{
+	width:90%;	
+}
+.contact #content div.directions h3, .contact #content div.directions span{
+	padding-left:0;
+}
+.contact #content div.key span{
+	border-right:none;
+}
+
+/* Secure Logins */
+
+.secure{
+	margin-top:25px;	
+}
+.secure article.login{
+	margin-top:0;
+	padding:0 5% 0 5%;
+	width:90%;	
+	border:none;
+	box-shadow:none;
+}
+.secure article.login form label{
+	width:67%;
+}
+.secure article.login form input.password{
+	width:95%;
+	margin-left:0;
+	float:left;
+}
+.secure article.login form input.submit{
+	margin-top:18px;
+	width:27%;	
+}
+
+/* 404 */
+
+.error404 #content section .searchform{
+	float:none;
+	width:92%;
+	padding:20px 0;
+}
+.error404 #content section .searchform input.search{
+	width:66%;	
+}
+.error404 #content section .searchform input.searchsubmit{
+	width:28%;	
+}
+
+/* Footer */
+
+footer{
+	height:auto;
+	padding:20px 0 0 0;
+}
+#prospectus div{
+	padding: 22px 0 12px 0;
+	height:auto;	
+}
+#prospectus div a{
+	float:none;
+	display:block;
+	margin:0 auto 10px auto;
+	clear:both;	
+}
+#social-bar div{
+	width:96%;
+	margin:0 2%;
+	padding:1.5em 0;
+}
+#social-bar h4{
+	float:none;
+	text-align:center;
+	display:block;
+	margin:0 auto;
+}
+#social-bar ul{
+	float:none;
+	text-align:center;
+	display:block;
+	margin:0 auto;
+}
+#social-bar ul li{
+	padding:1em 10px 0 10px;
+}
+#social-bar a{
+	width:44px;
+	height:44px;
+	text-indent:-999em;
+	margin:0 !important;
+	padding:0 !important;
+	overflow:hidden;
+}
+#social-bar a:before{
+	left:44px;
+}
+#copyright{
+	height:40px;
+	margin:0 auto;
+	padding:130px 0 0 0;
+	background-position:center top;
+}
+#copyright p{
+	text-align:center;
+}
+#copyright ul{
+	float:none;	
+	position:relative;
+	margin:0 auto;
+	top:-40px;
+}
+#copyright ul li{
+	display:inline-block;
+	width:24%;
+	text-align:center;	
+	padding:0 0 0 1%;
+}
+#copyright ul li a{
+	text-align:center;
+	white-space:nowrap;
+}
+	
+}

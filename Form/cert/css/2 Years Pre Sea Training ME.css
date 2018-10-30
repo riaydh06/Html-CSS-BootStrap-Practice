@@ -1,0 +1,89 @@
+
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+.certno {
+    left: 227px;
+    position: absolute;
+    top: 69px;
+    width: 100%;
+}
+.dosregno {
+    left: 265px;
+    position: absolute;
+    top: 152px;
+    width: 100%;
+}
+.name  {
+    font-family: serif;
+	font-style:italic;
+    font-size: 45px;
+    left: 328px;
+    position: absolute;
+    top: 427px;
+    width: 100%;
+}
+.birthday{
+    font-style:italic;
+    left: 291px;
+    position: absolute;
+    top: 553px;
+    width: 100%;
+	}
+.from{
+    font-style:italic;
+    left: 291px;
+    position: absolute;
+    top: 693px;
+    width: 100%;
+	}
+.to{
+    font-style:italic;
+    left: 648px;
+    position: absolute;
+    top: 693px;
+    width: 100%;
+	}
+.day{
+    font-style:italic;
+    left: 504px;
+    position: absolute;
+    top: 968px;
+    width: 100%;
+	}
+.year{ 
+    font-style:italic;
+    left: 701px;
+    position: absolute;
+    top: 967px;
+    width: 100%;
+	}
+
+<!-- ATP-CTO NEW 02-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+

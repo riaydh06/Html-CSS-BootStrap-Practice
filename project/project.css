@@ -1,0 +1,31 @@
+h1,h2,h5{text-transform:uppercase;color:#435B62}
+h5{color:red;}
+h6{color:white}
+.headding h1{font-size:50px;text-align:center;color:#435B62}
+.servicehead h5{text-align:center}
+.floatleft{float:left;}
+.floatright{float:right;}
+.col-md-4 p{text-align:justify;}
+.col-md-6 p{text-align:justify;}
+.middle{padding-top:30px;}
+.btn-default{color:black}
+.readmore{background:#868686;color:white;padding:5 15 5 15;border-radius:4px;}
+.readmore1{background:red;color:white;padding:5 15 5 15;border-radius:4px;}
+.viewallproject{padding-left:500px;padding-bottom:30px;}
+.manu li{float:left;display:block;padding:10px;}
+.manu li a{display:block;color:#435B62;text-transform:uppercase;padding:0 15 0 15;}
+.manu li a:hover{background:red;color:white;text-transform:uppercase;padding:0 15 0 15;
+text-decoration:none;}
+.footer{background:#383838;padding-bottom:20px;}
+.footer h4{color:white;}
+.footerlink {margin-left:-44px;}
+.footerlink li{display:block;padding:3px;float:left;}
+.footerlink li a{display:block;color:white;text-decoration:none;}
+.foot{margin-left:-30px;}
+.foot li{float:left;padding:5px;display:block;}
+.foot li a{display:block;}
+.address {color:white;}
+.sourcelink{color:#E53702}
+.bamboo{border-top:1px solid white;border-bottom:2px solid white;}
+.bamboo1{border-top:1px solid black;border-bottom:2px solid black;}
+.bamboo1 h6{color: black;}

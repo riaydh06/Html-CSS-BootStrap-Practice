@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Product</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="product.css" rel="stylesheet">
+	<style>
+    #tech-slideshow {
+        height: 200px;
+        position: relative;
+        overflow: hidden;
+		margin-bottom:20px;
+    }
+    #tech-slideshow > div {
+        height: 200px;
+        width: 2526px;
+        background: url(image/collage.jpg);
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        
+        -moz-transition:  opacity 0.5s ease-out; 
+           -o-transition: opacity 0.5s ease-out; 
+      -webkit-transition: opacity 0.5s ease-out; 
+          -ms-transition: opacity 0.5s ease-out; 
+         background-position: 0 200px;
+        /* Slow */
+        -webkit-animation: moveSlideshow 60s linear infinite;
+        -moz-animation:    moveSlideshow 60s linear infinite;
+        
+        -webkit-transform: translate3d(0,0,0); /* Performance */
+    
+    }
+    #tech-slideshow #tech-slideshow-1 {
+        /* Sprite */
+        background-position: 0 0px;
+        
+        /* Fast */
+        -webkit-animation: moveSlideshow 20s linear infinite;
+        -moz-animation:    moveSlideshow 20s linear infinite;
+    }
+    #tech-slideshow:hover #tech-slideshow-2 {
+        opacity: 0;
+    }
+    
+    @-webkit-keyframes moveSlideshow {
+        0%   { 
+            -webkit-transform: translateX(0); 
+            -moz-transform:    translateX(0); 
+            -ms-transform:     translateX(0); 
+            -o-transform:      translateX(0); 
+            transform:         translateX(0); 
+        }    
+        100% { 
+            -webkit-transform: translateX(-1684px); 
+            -moz-transform:    translateX(-1684px); 
+            -ms-transform:     translateX(-1684px); 
+            -o-transform:      translateX(-1684px); 
+            transform:         translateX(-1684px); 
+        }
+    }
+    @-moz-keyframes moveSlideshow {
+        0%   { 
+            -webkit-transform: translateX(0); 
+            -moz-transform:    translateX(0); 
+            -ms-transform:     translateX(0); 
+            -o-transform:      translateX(0); 
+            transform:         translateX(0); 
+        }    
+        100% { 
+            -webkit-transform: translateX(-1684px); 
+            -moz-transform:    translateX(-1684px); 
+            -ms-transform:     translateX(-1684px); 
+            -o-transform:      translateX(-1684px); 
+            transform:         translateX(-1684px); 
+        }
+    }
+	</style>
+  </head>
+  <body>
+    <div class="container">
+		<div class="row">
+			<div class="header"> 
+				<div class="row"> 
+					<div class=" col-md-10 col-md-offset-1"> 
+						<h1>Product add</h1>
+						<div id="tech-slideshow">
+							<div id="tech-slideshow-1"></div>
+							<div id="tech-slideshow-2"></div>
+						</div>   				
+					</div>
+				</div>
+			</div>
+			<div class="main">		
+				<div class="row">		
+					<div class="col-md-5 col-md-offset-1">		
+						<div class="panel panel-primary">
+						  <div class="panel-body">
+							Panel content
+						  </div>
+						  <div class="panel-footer">
+						    <h4>product</h4>
+						    <h4>product</h4>
+						    <h4>product</h4>
+						    <h4>product</h4>
+						    <h4>product</h4>
+						    <h4>product</h4>
+						  </div>
+						</div>		
+					</div>
+					<div class="col-md-5">		
+						<form>
+							<div class="form-group">
+							 <label for="Select_product">Select Product</label
+						    </div>
+						    <div class="form-group"> 
+                               <select required class="form-control" id="Select_product">
+									<option value="1">Select Product</option>
+									<option value="2">rice</option>
+									<option value="3">wheat</option>
+									<option value="4">potato</option>
+									<option value="4">potato</option>
+									<option value="4">potato</option>
+							   </select>
+					        </div>  
+                            <button type="submit" class="btn btn-success btn-lg btn-block">Submit</button>								
+						</form>
+						
+						
+
+						
+					</div>
+				</div>
+				
+			</div>
+			
+			
+			<div class="footer">   
+					
+			</div>
+		</div>
+	</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

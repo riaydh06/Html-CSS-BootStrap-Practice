@@ -1,0 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,900);
+body {}
+.flower_bg {background:#000;position:relative}
+.header_flower {position: absolute;right: 0;top: 0;}
+.header {margin: 35px;}
+.fix {overflow:hidden}
+.slider {}
+.social_bookmark {background: none repeat scroll 0 0 #000000; padding: 15px; text-align: right;}
+.social_bookmark img{float:right;margin-right:10px}
+.promo {}
+.single_promo {float: left; font-family: 'Lato',sans-serif; margin: 2%; width: 21%;}
+.single_promo h2{font-size:30px;line-height:30px}
+.single_promo p{font-size:14px;line-height:18px}
+.portfolio {}
+.portfolio img{float: left; width: 25%;}
+.container {width: 100%;max-width:1680px;margin:0 auto;}

@@ -1,0 +1,9 @@
+.container{background:#780000;width:80%;}
+.fix{overflow:hidden;}
+h1{color:white;text-transform:uppercase;}
+.pager{background:black;}
+.pager li{color:white;text-decoration:underline;}
+.jumbotron{background:url('car1.jpg') no-repeat ;text-align:center;color:}
+.col-md-1{background:#200000 ;padding:10px;}
+.lead{background:black}
+.table td{ background:white;}

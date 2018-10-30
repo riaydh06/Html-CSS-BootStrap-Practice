@@ -1,0 +1,7 @@
+body{background:url(image/body.png)}
+.main{
+     mardgin:0 auto;
+	 background-image:url(image/c.jpg);
+     height:800px;
+	 width:800px
+	 }

@@ -1,0 +1,15 @@
+p{font-family:serif;font-size:18px;}
+.manu{background:url('v.png');}
+.heading{text-align:center;text-transform:uppercase;color:black;
+font-family:"Times New Roman", Times, serif;}
+.paragraph{margin:20px;text-align:justify}
+.link li {border: 1px solid LightGray ;}
+.link li a{text-transform:uppercase;}
+.pad{padding-top:100px;padding-left:10px}
+.container{width:90%;}
+.footer{background:black;height:200px;padding:20px;}
+.sociallink{float:right;}
+.para{text-align:justify;}
+.content{padding-top:10px;background:#F0F0F0 ;}
+.foot li {float:left;display:block;}
+.foot li a{display:block;padding:5px;}

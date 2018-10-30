@@ -1,0 +1,153 @@
+#feature {
+    display: block;
+    height: 550px;
+    margin: -6px auto 0;
+    overflow: hidden;
+    padding: 4px 0 0;
+    width: 990px;
+}
+#feature div#feature-wrap {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #e6e6e2;
+    box-shadow: 0 0 4px #d6d6ce;
+    display: block;
+    height: 480px;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    width: 960px;
+}
+#feature .fader-nav-wrap {
+    bottom: -15px;
+    float: left;
+    height: 80px;
+    left: 50%;
+    position: absolute;
+    z-index: 100;
+}
+#feature .fader-nav {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #ebebe7;
+    bottom: -20px;
+    box-shadow: 0 0 4px #d6d6ce;
+    float: left;
+    height: 80px;
+    left: -50%;
+    margin: 0 auto;
+    min-width: 450px;
+    overflow: hidden;
+    padding: 0 10px;
+    position: relative;
+}
+#feature .fader-nav #prev, #feature .fader-nav #prev:visited {
+    background: url("images/BG-feature-nav.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    float: left;
+    margin: 24px 0 0 6px;
+}
+#feature .fader-nav #prev, #feature .fader-nav #next {
+    height: 32px;
+    text-indent: -999em;
+    width: 30px;
+}
+a, p, address {
+    color: #433d33;
+    font-family: "Lato",Arial,Helvetica,sans-serif;
+}
+a, a:visited {
+    color: #90887f;
+    text-decoration: none;
+}
+#feature .fader-nav #next, #feature .fader-nav #next:visited {
+    background: url("images/BG-feature-nav.png") no-repeat scroll right top rgba(0, 0, 0, 0);
+    float: right;
+    margin: 24px 6px 0 0;
+}
+#feature .fader-nav #prev, #feature .fader-nav #next {
+    height: 32px;
+    text-indent: -999em;
+    width: 30px;
+}
+a, p, address {
+    color: #433d33;
+    font-family: "Lato",Arial,Helvetica,sans-serif;
+}
+a, a:visited {
+    color: #90887f;
+    text-decoration: none;
+}
+#feature .fader-nav p {
+    display: block;
+    margin: 0 auto;
+    padding: 12px 50px 45px;
+    text-align: center;
+    white-space: nowrap;
+}
+a, p, address {
+    color: #433d33;
+    font-family: "Lato",Arial,Helvetica,sans-serif;
+}
+#feature .fader-nav p a, #feature .fader-nav p a:visited {
+    color: #90887f;
+    font: 20px/22px "Copse",Georgia,"Times New Roman",Times,serif;
+    text-shadow: 1px 2px 0 #f0f0f0;
+}
+a, p, address {
+    color: #433d33;
+    font-family: "Lato",Arial,Helvetica,sans-serif;
+}
+a, a:visited {
+    color: #90887f;
+    text-decoration: none;
+}
+#feature .fader-list {
+    bottom: 24px;
+    float: left;
+    height: 12px;
+    left: 50%;
+    position: absolute;
+    z-index: 101;
+}
+#feature .fader-nav li {
+    float: left;
+    height: 12px;
+    margin: 0 3px;
+    padding: 0;
+    width: 12px;
+}
+#feature-ribbon {
+    background: url("images/IMG-feature-ribbon.png") no-repeat scroll center bottom rgba(0, 0, 0, 0);
+    bottom: -90px;
+    display: block;
+    height: 22px;
+    left: -50%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 100;
+}
+#feature .fader-content {
+    display: block;
+    height: 480px;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    width: 960px;
+    z-index: 99;
+}
+ul, ol {
+    margin-left: 2em;
+}
+ol, ul {
+    list-style: outside none none;
+}
+#feature .fader-content li {
+    height: 480px;
+    margin: 0;
+    position: absolute;
+    width: 960px;
+}
+#feature .fader-content div {
+    display: block;
+    height: 480px;
+    margin: 0;
+    width: 960px;
+}

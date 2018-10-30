@@ -1,0 +1,73 @@
+.title{
+   left: 71px;
+	position: absolute;
+	top: 409px;
+	width: 100%;
+}
+.name  {
+    font-family: serif;
+	font-style: italic;
+	font-size: 35px;
+    left: 326px;
+	position: absolute;
+	top: 583px;
+	width: 100%;
+}
+.birthday{
+    font-style:italic;
+    left: 466px;
+	position: absolute;
+	top: 636px;
+	width: 100%;
+	}
+.cdc{
+    font-style:italic;
+    left: 978px;
+	position: absolute;
+	top: 636px;
+	width: 100%;
+	}
+.from{
+    font-style:italic;
+    left: 178px;
+	position: absolute;
+	top: 713px;
+    width: 100%;
+	}
+.to{
+    font-style:italic;
+    left: 328px;
+    position: absolute;
+    top: 713px;
+	width: 100%;
+	}
+.certno{
+    font-family: times new roman;
+	left: 368px;
+	position: absolute;
+	top: 1345px;
+	width: 100%;
+	}
+.issuedate{
+    font-style: italic;
+	left: 999px;
+	position: absolute;
+	top: 1311px;
+	width: 100%;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

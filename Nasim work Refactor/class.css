@@ -1,0 +1,21 @@
+h3{padding-left:15px}
+h4{color:red;}
+h5{}
+h6{}
+.container{width:80%;}
+.head{background:url('8.jpg');padding-top:100px;padding-bottom:100px;}
+.logo{padding-left:40px;}
+.menu{float:right;padding-top:1px}
+.menu li{}
+.menu li a{color:white}
+.menu li a:hover{color:red}
+.row{float:left;}
+.image{float:left; border:80px solid #ddd;}
+.img-responsive{}
+body{background-image}
+.paragrap{
+ }
+.para{padding-top:20px;background:url('bg2.jpg')}
+.foot{background:#343434;padding-bottom:20px;}
+.foot p{color:white;}
+.about{padding-top:10px;} 
